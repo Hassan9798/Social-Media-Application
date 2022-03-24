@@ -25,7 +25,9 @@ app.use('/store',posts);
 app.use('/store',search);
 app.use('/uploads',express.static('uploads'));
 app.use('/posts',express.static('posts'));
-
+app.get('/',(req,res)=>{
+res.json('welcome')
+})
 
 app.listen(4000,()=>{
     console.log('app is running');
