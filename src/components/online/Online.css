@@ -1,0 +1,34 @@
+.rightbarContact{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.rightbarImgContainer{
+    
+    position: relative;
+  
+}
+.rightbarOnline{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(6, 250, 6);
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: 1px solid white;
+    
+}
+.rightbarContactName{
+    
+    font-size: 15px;
+} 
+.rightbarContactImg{
+    border-radius: 50%;
+    margin: 10px;
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    
+}
